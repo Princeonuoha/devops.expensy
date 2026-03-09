@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feature/expensy-devops
   workflow_dispatch:
 
 jobs:
