@@ -50,4 +50,7 @@ Credentials are injected only during pipeline execution.
 
 ## Responsible Disclosure
 
+
+Secrets are not stored in the repository. The committed Kubernetes Secret manifest acts as a template only. In production environments, sensitive credentials should be injected via CI/CD pipelines or managed through Azure Key Vault.
+
 If you discover a security vulnerability, please open an issue or contact the maintainers privately.
