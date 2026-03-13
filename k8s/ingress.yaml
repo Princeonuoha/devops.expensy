@@ -10,11 +10,11 @@ spec:
 
   tls:
   - hosts:
-      - expensy.example.com
+      - prince.azure.diogohack.shop
     secretName: expensy-tls
 
   rules:
-  - host: expensy.57.156.40.50.nip.io
+  - host: prince.azure.diogohack.shop
     http:
       paths:
       - path: /
